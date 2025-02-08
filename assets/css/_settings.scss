@@ -1,0 +1,28 @@
+//fonts
+
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+$font1: "poppins", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+
+//colors
+
+$bgBody: linear-gradient(135deg, #cf9aff, #95c0ff);
+$bgButton: linear-gradient(45deg, #4d48e3, #7856e6);
+$bgButtonHover: linear-gradient(45deg, #7856e6, #4d48e3);
+$white: #fff;
+$text: #333;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font1;
+}
+
+body {
+  background: $bgBody;
+}

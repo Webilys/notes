@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "poppins", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  padding: 4% 10%;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.container .header h1 img {
+  width: 80px;
+}
+.container .header button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: linear-gradient(45deg, #4d48e3, #7856e6) !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+  outline: 0 !important;
+  border: 0 !important;
+  border-radius: 40px !important;
+  padding: 10px 25px !important;
+  margin: 30px 0 20px !important;
+  cursor: pointer !important;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.container .header button:hover {
+  background: linear-gradient(45deg, #7856e6, #4d48e3) !important;
+}
+.container .header button i {
+  font-size: 25px;
+  margin-right: 8px;
+}
+.container .input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+}
+.container .input-box img {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
