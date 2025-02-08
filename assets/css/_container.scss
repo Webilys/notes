@@ -15,9 +15,10 @@
       font-size: 35px;
       font-weight: 600;
       user-select: none;
-
+      text-shadow: 1px 1px 2px $blackShadow;
       img {
         width: 80px;
+        filter: drop-shadow(0 0 2px $white);
       }
     }
 
@@ -25,19 +26,21 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: $bgButton !important;
-      color: $white !important;
-      font-size: 1rem !important;
-      outline: 0 !important;
-      border: 0 !important;
-      border-radius: 40px !important;
-      padding: 10px 25px !important;
-      margin: 30px 0 20px !important;
-      cursor: pointer !important;
+      background: $bgButton;
+      color: $white;
+      font-size: 1rem;
+      outline: 0;
+      border: 0;
+      border-radius: 40px;
+      padding: 10px 25px;
+      margin: 30px 0 20px;
+      cursor: pointer;
+      box-shadow: 1px 1px 2px $blackShadow;
+
       transition: 0.2s ease;
 
       &:hover {
-        background: $bgButtonHover !important;
+        background: $bgButtonHover;
       }
       i {
         font-size: 25px;
@@ -49,14 +52,14 @@
   .input-box {
     position: relative;
     width: 100%;
-    max-width: 500px;
     min-height: 150px;
-    background: $white;
-    color: $text;
+    background: $bgButton;
+    color: $white;
     padding: 20px;
     margin: 20px 0;
     outline: none;
     border-radius: 5px;
+    box-shadow: 1px 1px 2px $blackShadow;
 
     img {
       width: 25px;

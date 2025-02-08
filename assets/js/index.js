@@ -15,7 +15,7 @@ function updateStorage() {
 createBtn.addEventListener("click", () => {
   let inputBox = document.createElement("p");
   let img = document.createElement("img");
-  inputBox.className = "input-box";
+  inputBox.className = "input-box col-12 col-lg-6";
   inputBox.setAttribute("contenteditable", "true");
   img.src = "./assets/img/delete.png";
   img.alt = "Icone supprimer une note";
